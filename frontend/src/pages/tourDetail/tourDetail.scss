@@ -1,0 +1,27 @@
+.tourDetail-body {
+  margin-top: 60px;
+  height: auto;
+  .infor {
+    
+    height: auto;
+    width: auto;
+    margin: 100px;
+    border-radius: 15px;
+    border: 1px solid;
+    .title {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 2fr 0.3fr 0.3fr;
+    }
+    .imageDes {
+      display: grid;
+      grid-template-columns: 1fr 0.5fr;
+      .img{
+          width: 95%;
+          height: 95%;
+          border-radius: 5px;
+          margin-left: 20px;
+      }
+    }
+  }
+}
